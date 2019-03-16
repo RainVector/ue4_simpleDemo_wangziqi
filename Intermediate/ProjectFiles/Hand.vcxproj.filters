@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Hand.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{AD61E563-D5F5-49B1-9BD3-3B7576FCED2A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Hand.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\HandEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{5A370857-831E-470F-B339-7E9E945FC58E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Hand">
+      <UniqueIdentifier>{A11593D3-0CEF-4507-ABF6-D23B3F3E2E73}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Hand\BallPawn.cpp">
+      <Filter>Source\Hand</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Hand\BallPawn.h">
+      <Filter>Source\Hand</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Hand\Hand.Build.cs">
+      <Filter>Source\Hand</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Hand\HandGameModeBase.cpp">
+      <Filter>Source\Hand</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Hand\HandGameModeBase.h">
+      <Filter>Source\Hand</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Hand\MyAnimInstance.cpp">
+      <Filter>Source\Hand</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Hand\MyAnimInstance.h">
+      <Filter>Source\Hand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hand\WISEGLOVE.H">
+      <Filter>Source\Hand</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Hand\WISEGLOVE.lib">
+      <Filter>Source\Hand</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Hand\HandCharacter.h">
+      <Filter>Source\Hand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hand\Misc.h">
+      <Filter>Source\Hand</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Hand\HandCharacter.cpp">
+      <Filter>Source\Hand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hand\Misc.cpp">
+      <Filter>Source\Hand</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
