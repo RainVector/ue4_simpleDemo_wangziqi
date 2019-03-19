@@ -15,6 +15,7 @@
 #include "MyAnimInstance.h"
 #include "HandCharacter.h"
 #include "BallPawn.h"
+#include "CubePawn.h"
 #include "HandCharacter.h"
 #include "WISEGLOVE.H"
 
@@ -75,7 +76,8 @@ double Distance2PtoC(double x1, double y1, double z1, double x2, double y2, doub
 	double res = temp1 < temp2 ? temp1 : temp2;
 	return res;
 }
-bool IntersectHand(FVector *finger, InfoBall ball)
+int objCdFlag[5] = { 0 };
+bool IntersectHand(FVector *finger, InfoBall ball, InfoCube cube, int fingerID)
 {
 	if (handRadius <= 0 || ball.radius <= 0)
 	{
@@ -106,6 +108,7 @@ bool IntersectHand(FVector *finger, InfoBall ball)
 	// ÀëÉ¢Åö×²¼ì²â
 	double Dist_2 = Distance2PtoL(x1, y1, z1, X, Y, Z, x0, y0, z0);
 	double Dist_PC = Distance2PtoC(x1, y1, z1, x2, y2, z2, x0, y0, z0);
+	bool cdFlag = FALSE;
 	g_distance = sqrt(Dist_2) - tempR;
 	if (g_distance < 0)
 	{
@@ -114,16 +117,35 @@ bool IntersectHand(FVector *finger, InfoBall ball)
 		{
 			if (Dist_PC <= pow(tempR, 2))
 			{
-				return TRUE;
+				cdFlag = TRUE;
 			}
 			else
-				return FALSE;
+				cdFlag = FALSE;
 		}
 		else
-			return TRUE;
+			cdFlag = TRUE;
 	}
 	else
-		return FALSE;
+		cdFlag = FALSE;
+
+	double height1 = cube.z - cube.halfHeight;
+	double height2 = cube.z + cube.halfHeight;
+	double width1 = cube.y - cube.halfHeight;
+	if (fingerID == 0) {
+		if ((y2 - width1) > 0) {
+			cdFlag = TRUE;
+			objCdFlag[fingerID] = 1;
+		}
+	}
+	else{
+		if ((z1 - height1)*(z2 - height1) < 0 || (z2 - height2) < 0) {
+			cdFlag = TRUE;
+			objCdFlag[fingerID] = 1;
+		}
+	}
+	
+
+	return cdFlag;
 }
 Matrix4f transMatrixMakerXYZ(float alpha, float beta, float gamma, float X, float Y, float Z) {
 	Matrix4f ret;
@@ -853,9 +875,9 @@ void CalHandOrient(float *angle) {
 	littleLocation[3] = FVector(littleLoc[3](0, 0), littleLoc[3](1, 0), littleLoc[3](2, 0));
 	littleLocation[3] = skelToWorld.RotateVector(littleLocation[3]);
 
-	WCHAR buffer[300];
-	swprintf(buffer, L"The fingertip is at (%f, %f, %f).\r\n The little3 is at (%f, %f, %f).\r\n The distance is %f.\r\n", littleLocation[3].X, littleLocation[3].Y, littleLocation[3].Z, littleLocation[2].X, littleLocation[2].Y, littleLocation[2].Z, g_distance);
-	OutputDebugString(buffer);
+	//WCHAR buffer[300];
+	//swprintf(buffer, L"The fingertip is at (%f, %f, %f).\r\n The little3 is at (%f, %f, %f).\r\n The distance is %f.\r\n", littleLocation[3].X, littleLocation[3].Y, littleLocation[3].Z, littleLocation[2].X, littleLocation[2].Y, littleLocation[2].Z, g_distance);
+	//OutputDebugString(buffer);
 
 
 
@@ -863,40 +885,34 @@ void CalHandOrient(float *angle) {
 }
 
 float angleGraphics[14];
-
 int CollisionDetection() {
 
-	InfoBall ball;
-	ball.x = ballLocation.X;
-	ball.y = ballLocation.Y;
-	ball.z = ballLocation.Z;
-	ball.radius = 5;
 	
-	int ret1 = IntersectHand(thumbLocation, ball);
+	int ret1 = IntersectHand(thumbLocation, ball, Cube, 0);
 	if (ret1) {
 		for (int i = 0; i<5; i++)
 			OutputDebugString(L"thumb collision detection!\r\n");
 	}
 
-	int ret2 = IntersectHand(indexLocation, ball);
+	int ret2 = IntersectHand(indexLocation, ball, Cube, 1);
 	if (ret2) {
 		for (int i = 0; i<5; i++)
 			OutputDebugString(L"index collision detection!\r\n");
 	}
 
-	int ret3 = IntersectHand(middleLocation, ball);
+	int ret3 = IntersectHand(middleLocation, ball, Cube, 2);
 	if (ret3) {
 		for (int i = 0; i<5; i++)
 			OutputDebugString(L"middle collision detection!\r\n");
 	}
 
-	int ret4 = IntersectHand(ringLocation, ball);
+	int ret4 = IntersectHand(ringLocation, ball, Cube, 3);
 	if (ret4) {
 		for (int i = 0; i<5; i++)
 			OutputDebugString(L"ring collision detection!\r\n");
 	}
 
-	int ret5 = IntersectHand(littleLocation, ball);
+	int ret5 = IntersectHand(littleLocation, ball, Cube, 4);
 	if (ret5) {
 		for (int i = 0; i<5; i++)
 			OutputDebugString(L"little collision detection!\r\n");

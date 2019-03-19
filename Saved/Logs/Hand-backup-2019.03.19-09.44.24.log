@@ -1,0 +1,765 @@
+﻿Log file open, 03/18/19 21:22:33
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Hand
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1824423020) SRandInit(-1824423020).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.522790
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.223s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Binaries/Win64/UE4Editor-Hand.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am DESKTOP-ULVVP9N (192.168.217.1:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.005s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.18-13.22.35:411][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.18-13.22.35:411][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.18-13.22.35:424][  0]LogInit: Computer: DESKTOP-ULVVP9N
+[2019.03.18-13.22.35:424][  0]LogInit: User: ZYK
+[2019.03.18-13.22.35:424][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.18-13.22.35:425][  0]LogInit: High frequency timer resolution =3.515625 MHz
+[2019.03.18-13.22.35:425][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.03.18-13.22.35:425][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.18-13.22.35:425][  0]LogMemory: Process Physical Memory: 276.58 MB used, 276.58 MB peak
+[2019.03.18-13.22.35:425][  0]LogMemory: Process Virtual Memory: 264.90 MB used, 264.90 MB peak
+[2019.03.18-13.22.35:425][  0]LogMemory: Physical Memory: 5731.29 MB used,  2401.15 MB free, 8132.44 MB total
+[2019.03.18-13.22.35:425][  0]LogMemory: Virtual Memory: 698.16 MB used,  2401.15 MB free, 134217728.00 MB total
+[2019.03.18-13.22.35:514][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.03.18-13.22.35:514][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.03.18-13.22.35:910][  0]LogStreaming: Display: Took  0.395s to EndInitTextLocalization.
+[2019.03.18-13.22.35:910][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.18-13.22.36:030][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.18-13.22.36:030][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.18-13.22.36:191][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.18-13.22.36:312][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2019.03.18-13.22.36:312][  0]LogD3D11RHI:       4029/0/4066 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.03.18-13.22.36:323][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.18-13.22.36:323][  0]LogD3D11RHI:       0/0/4066 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.18-13.22.36:323][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.18-13.22.36:332][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.18-13.22.36:332][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.18-13.22.36:332][  0]LogWindows: EnumDisplayDevices:
+[2019.03.18-13.22.36:332][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:1)
+[2019.03.18-13.22.36:333][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2019.03.18-13.22.36:333][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.03.18-13.22.36:334][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.03.18-13.22.36:334][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.03.18-13.22.36:335][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2019.03.18-13.22.36:335][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.03.18-13.22.36:335][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.03.18-13.22.36:335][  0]LogRHI: Texture pool is 2820 MB (70% of 4029 MB)
+[2019.03.18-13.22.36:370][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
+[2019.03.18-13.22.36:370][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.03.18-13.22.36:370][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.18-13.22.36:393][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.03.18-13.22.36:441][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Intermediate/Shaders/WorkingDirectory/17536/).
+[2019.03.18-13.22.36:442][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ZYK/AppData/Local/Temp/UnrealShaderWorkingDir/AE5A9E094B045C82FAD16E953D3A03BA/'.
+[2019.03.18-13.22.36:714][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.18-13.22.36:729][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.18-13.22.36:744][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.18-13.22.36:758][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.18-13.22.36:773][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.18-13.22.36:793][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.18-13.22.36:812][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.18-13.22.36:830][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.18-13.22.36:839][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.18-13.22.36:853][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2019.03.18-13.22.36:870][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2019.03.18-13.22.36:889][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2019.03.18-13.22.36:903][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2019.03.18-13.22.36:917][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2019.03.18-13.22.36:929][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2019.03.18-13.22.36:956][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2019.03.18-13.22.36:956][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.03.18-13.22.36:971][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-13.22.36:975][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.18-13.22.37:020][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.18-13.22.37:037][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.18-13.22.37:054][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.18-13.22.37:071][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.18-13.22.37:087][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.18-13.22.37:106][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.18-13.22.37:106][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.18-13.22.37:276][  0]LogXGEController: Cleaning working directory: C:/Users/ZYK/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.18-13.22.37:277][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.18-13.22.37:277][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.18-13.22.37:277][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.18-13.22.37:894][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.18-13.22.37:975][  0]LogDerivedDataCache: Loaded boot cache 0.08s 74MB C:/Users/ZYK/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.03.18-13.22.37:975][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ZYK/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2019.03.18-13.22.37:975][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.18-13.22.37:975][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.18-13.22.37:976][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.18-13.22.37:976][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.18-13.22.37:993][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.18-13.22.38:011][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ZYK/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.18-13.22.38:011][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.18-13.22.38:011][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.18-13.22.38:022][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.18-13.22.38:022][  0]LogSlate: Using Freetype 2.6.0
+[2019.03.18-13.22.38:023][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.18-13.22.38:023][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.18-13.22.38:137][  0]LogAssetRegistry: FAssetRegistry took 0.0288 seconds to start up
+[2019.03.18-13.22.38:417][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.18-13.22.38:582][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.18-13.22.38:588][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.18-13.22.38:588][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.18-13.22.38:588][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.18-13.22.38:588][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.03.18-13.22.38:588][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.03.18-13.22.38:619][  0]LogNetVersion: Hand , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4255602584)
+[2019.03.18-13.22.39:104][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.101396 seconds
+[2019.03.18-13.22.39:110][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2019.03.18-13.22.39:110][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2019.03.18-13.22.39:110][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.18-13.22.40:874][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.18-13.22.40:908][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.18-13.22.41:521][  0]SourceControl: Source control is disabled
+[2019.03.18-13.22.41:521][  0]SourceControl: Source control is disabled
+[2019.03.18-13.22.41:539][  0]SourceControl: Source control is disabled
+[2019.03.18-13.22.41:554][  0]SourceControl: Source control is disabled
+[2019.03.18-13.22.42:046][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.18-13.22.42:476][  0]LogOcInput: OculusInput pre-init called
+[2019.03.18-13.22.42:599][  0]LogEngine: Initializing Engine...
+[2019.03.18-13.22.42:634][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2019.03.18-13.22.42:635][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.18-13.22.42:636][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.18-13.22.42:947][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.18-13.22.43:078][  0]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.18-13.22.43:172][  0]LogInit: FAudioDevice initialized.
+[2019.03.18-13.22.43:314][  0]LogDerivedDataCache: Saved boot cache 0.14s 74MB C:/Users/ZYK/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.03.18-13.22.43:337][  0]LogInit: Texture streaming: Enabled
+[2019.03.18-13.22.43:410][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.18-13.22.43:410][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={0C9DBF7F-41E5-CDFB-402E-FA97EB2A77D5}
+[2019.03.18-13.22.43:426][  0]LogInit: Transaction tracking system initialized
+[2019.03.18-13.22.43:468][  0]BlueprintLog: New page: Editor Load
+[2019.03.18-13.22.43:618][  0]LocalizationService: Localization service is disabled
+[2019.03.18-13.22.44:020][  0]LogConsoleResponse: Display: 
+[2019.03.18-13.22.44:176][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.18-13.22.44:177][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.18-13.22.44:177][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.18-13.22.44:177][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.18-13.22.44:177][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.18-13.22.44:601][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Content/' took 0.01s
+[2019.03.18-13.22.44:601][  0]SourceControl: Source control is disabled
+[2019.03.18-13.22.44:601][  0]Cmd: MAP LOAD FILE="C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.18-13.22.44:602][  0]LightingResults: New page: Lighting Build
+[2019.03.18-13.22.44:605][  0]MapCheck: New page: Map Check
+[2019.03.18-13.22.44:605][  0]LightingResults: New page: Lighting Build
+[2019.03.18-13.22.44:825][  0]LogAIModule: Creating AISystem for world NewMap
+[2019.03.18-13.22.44:834][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.18-13.22.44:848][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.18-13.22.44:890][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 41.283ms to complete.
+[2019.03.18-13.22.44:890][  0]LogFileHelpers: Loading map 'NewMap' took 0.289
+[2019.03.18-13.22.45:022][  0]LogCollectionManager: Loaded 0 collections in 0.001989 seconds
+[2019.03.18-13.22.45:071][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Saved/Collections/' took 0.01s
+[2019.03.18-13.22.45:071][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Content/Developers/ZYK/Collections/' took 0.01s
+[2019.03.18-13.22.45:071][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Content/Collections/' took 0.01s
+[2019.03.18-13.22.45:071][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.03.18-13.22.45:088][  0]LogContentBrowser: Native class hierarchy populated in 0.0164 seconds. Added 2457 classes and 560 folders.
+[2019.03.18-13.22.45:102][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0073 seconds. Added 0 classes and 0 folders.
+[2019.03.18-13.22.45:142][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0076 seconds. Added 0 classes and 0 folders.
+[2019.03.18-13.22.45:156][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0069 seconds. Added 1 classes and 2 folders.
+[2019.03.18-13.22.45:298][  0]LogSlate: Took 0.000276 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.18-13.22.45:300][  0]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.18-13.22.45:304][  0]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.18-13.22.45:337][  0]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.18-13.22.45:428][  0]LogRenderer: Reallocating scene render targets to support 796x416 Format 9 NumSamples 1 (Frame:1).
+[2019.03.18-13.22.45:618][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0091 seconds. Added 0 classes and 0 folders.
+[2019.03.18-13.22.45:618][  0]LogLoad: (Engine Initialization) Total time: 13.37 seconds
+[2019.03.18-13.22.45:618][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.18-13.22.45:993][  0]LogContentStreaming: Texture pool size now 800 MB
+[2019.03.18-13.22.46:298][  1]LogAssetRegistry: Asset discovery search completed in 8.1851 seconds
+[2019.03.18-13.22.46:299][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.18-13.22.46:299][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000144 seconds (updated 0 objects)
+[2019.03.18-13.22.57:976][ 36]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-13.22.58:062][ 40]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.18-13.22.58:373][ 40]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0090 seconds. Added 116 classes and 0 folders.
+[2019.03.18-13.22.58:638][ 40]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024162662780, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2019.03.18-13.22.58:639][ 40]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024162662778, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2019.03.18-13.22.59:060][ 40]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.18-13.23.00:097][134]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.18-13.24.35:480][452]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024130200100, Size=172, Default__HandAnimBlueprint_C Function /Game/HandAnimBlueprint.HandAnimBlueprint_C:ExecuteUbergraph_HandAnimBlueprint
+[2019.03.18-13.24.35:490][452]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024130200100, Size=172
+[2019.03.18-13.24.35:490][452]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241545bc4c0, Size=172, Default__HandAnimBlueprint_C Function /Engine/Transient.REINST_HandAnimBlueprint_C_0:ExecuteUbergraph_HandAnimBlueprint
+[2019.03.18-13.24.35:502][452]LogBlueprint: Warning: [Compiler HandAnimBlueprint] You must specify at least one Source Bone
+[2019.03.18-13.24.35:504][452]LogUObjectGlobals: Created PersistentFrame Addr=0x000002412cd9d300, Size=172, Default__HandAnimBlueprint_C Function /Game/HandAnimBlueprint.HandAnimBlueprint_C:ExecuteUbergraph_HandAnimBlueprint
+[2019.03.18-13.24.35:506][452]LogBlueprint: Warning: [Compiler HandAnimBlueprint] Node  Transform (Modify) Bone - Bone: index3_r  uses potentially thread-unsafe call  Change Index 3 . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2019.03.18-13.24.35:506][452]LogBlueprint: Warning: [Compiler HandAnimBlueprint] Node  Transform (Modify) Bone - Bone: index2_r  uses potentially thread-unsafe call  Change Index 2 . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2019.03.18-13.24.35:506][452]LogBlueprint: Warning: [Compiler HandAnimBlueprint] Node  Transform (Modify) Bone - Bone: index1_r  uses potentially thread-unsafe call  Change Index 1 . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2019.03.18-13.24.35:506][452]LogBlueprint: Warning: [Compiler HandAnimBlueprint] Node  Transform (Modify) Bone - Bone: thumb3_r  uses potentially thread-unsafe call  Change Thumb 3 . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2019.03.18-13.24.35:506][452]LogBlueprint: Warning: [Compiler HandAnimBlueprint] Node  Transform (Modify) Bone - Bone: thumb1_r  uses potentially thread-unsafe call  Change Thumb 1 . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2019.03.18-13.24.35:506][452]LogBlueprint: Warning: [Compiler HandAnimBlueprint] Node  Transform (Modify) Bone - Bone: middle1_r  uses potentially thread-unsafe call  Change Middle 1 . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2019.03.18-13.24.35:506][452]LogBlueprint: Warning: [Compiler HandAnimBlueprint] Node  Transform (Modify) Bone - Bone: middle2_r  uses potentially thread-unsafe call  Change Middle 2 . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2019.03.18-13.24.35:507][452]LogBlueprint: Warning: [Compiler HandAnimBlueprint] Node  Transform (Modify) Bone - Bone: middle3_r  uses potentially thread-unsafe call  Change Middle 3 . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2019.03.18-13.24.35:507][452]LogBlueprint: Warning: [Compiler HandAnimBlueprint] Node  Transform (Modify) Bone - Bone: ring1_r  uses potentially thread-unsafe call  Change Ring 1 . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2019.03.18-13.24.35:507][452]LogBlueprint: Warning: [Compiler HandAnimBlueprint] Node  Transform (Modify) Bone - Bone: ring2_r  uses potentially thread-unsafe call  Change Ring 2 . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2019.03.18-13.24.35:507][452]LogBlueprint: Warning: [Compiler HandAnimBlueprint] Node  Transform (Modify) Bone - Bone: ring3_r  uses potentially thread-unsafe call  Change Ring 3 . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2019.03.18-13.24.35:507][452]LogBlueprint: Warning: [Compiler HandAnimBlueprint] Node  Transform (Modify) Bone - Bone: pinky2_r  uses potentially thread-unsafe call  Change Little 1 . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2019.03.18-13.24.35:507][452]LogBlueprint: Warning: [Compiler HandAnimBlueprint] Node  Transform (Modify) Bone - Bone: pinky3_r  uses potentially thread-unsafe call  Change Little 2 . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2019.03.18-13.24.35:507][452]LogBlueprint: Warning: [Compiler HandAnimBlueprint] Node  Transform (Modify) Bone - Bone: pinky4_r  uses potentially thread-unsafe call  Change Little 3 . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2019.03.18-13.24.35:508][452]LogBlueprint: Warning: [Compiler HandAnimBlueprint] [0123.26] Compile of HandAnimBlueprint successful, but with 15 Warning(s) [in 21 ms] (/Game/HandAnimBlueprint.HandAnimBlueprint)
+[2019.03.18-13.24.35:612][452]LogSkeletalMesh: Skeletal Mesh found in DDC [0.505742ms] /Game/ImportFile/hand_right_1.hand_right_1
+[2019.03.18-13.24.35:649][452]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0076 seconds. Added 1 classes and 2 folders.
+[2019.03.18-13.24.36:120][452]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.18-13.24.36:143][452]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0096 seconds. Added 1 classes and 0 folders.
+[2019.03.18-13.24.37:088][452]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0071 seconds. Added 1 classes and 0 folders.
+[2019.03.18-13.24.37:415][452]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.03.18-13.24.39:261][548]LogRenderer: Reallocating scene render targets to support 796x420 Format 9 NumSamples 1 (Frame:97).
+[2019.03.18-13.24.45:916][  0]LogRenderer: Reallocating scene render targets to support 1032x712 Format 9 NumSamples 1 (Frame:780).
+[2019.03.18-13.24.50:977][529]LogUObjectGlobals: Created PersistentFrame Addr=0x000002419903e580, Size=120, Default__Hand_BP_C Function /Game/Hand_BP.Hand_BP_C:ExecuteUbergraph_Hand_BP
+[2019.03.18-13.24.50:981][529]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002419903e580, Size=120
+[2019.03.18-13.24.50:981][529]LogUObjectGlobals: Created PersistentFrame Addr=0x000002419903e580, Size=120, Default__Hand_BP_C Function /Engine/Transient.REINST_Hand_BP_C_26:ExecuteUbergraph_Hand_BP
+[2019.03.18-13.24.50:984][529]LogUObjectGlobals: Created PersistentFrame Addr=0x000002419903de00, Size=120, Default__Hand_BP_C Function /Game/Hand_BP.Hand_BP_C:ExecuteUbergraph_Hand_BP
+[2019.03.18-13.25.12:120][388]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-13.26.05:103][291]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-13.26.05:180][298]BlueprintLog: New page: Compile CubeBlueprint
+[2019.03.18-13.26.05:674][298]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241545bc4c0, Size=172
+[2019.03.18-13.26.05:678][298]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002419903e580, Size=120
+[2019.03.18-13.26.06:143][323]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CubeBlueprint" FILE="C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Content/CubeBlueprint.uasset" SILENT=true
+[2019.03.18-13.26.06:208][323]LogSavePackage: Save=30.17ms
+[2019.03.18-13.26.06:208][323]LogSavePackage: Moving 'C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Saved/CubeBlueprint5ABDE67B475F9305EFBFECA8EF24D38E.tmp' to 'C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Content/CubeBlueprint.uasset'
+[2019.03.18-13.26.06:222][323]LogSavePackage: Display: Finished SavePackage C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Content/CubeBlueprint.uasset
+[2019.03.18-13.26.06:877][380]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.18-13.26.06:926][380]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.18-13.26.06:932][380]LogPlayLevel: [PlayLevel] Compiling Hand_BP before play...
+[2019.03.18-13.26.06:937][380]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002419903de00, Size=120
+[2019.03.18-13.26.06:938][380]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024185a9ac80, Size=120, Default__Hand_BP_C Function /Engine/Transient.REINST_Hand_BP_C_36:ExecuteUbergraph_Hand_BP
+[2019.03.18-13.26.06:941][380]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024185a9aa00, Size=120, Default__Hand_BP_C Function /Game/Hand_BP.Hand_BP_C:ExecuteUbergraph_Hand_BP
+[2019.03.18-13.26.07:200][380]LogPlayLevel: PlayLevel: Blueprint regeneration took 274 ms (1 blueprints)
+[2019.03.18-13.26.07:225][380]PIE: New page: PIE session: NewMap (Mar 19, 2019, 5:26:07 AM)
+[2019.03.18-13.26.07:226][380]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.03.18-13.26.07:239][380]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013107s)
+[2019.03.18-13.26.07:240][380]LogAIModule: Creating AISystem for world NewMap
+[2019.03.18-13.26.07:249][380]LogPlayLevel: PIE: World Init took: (0.009382s)
+[2019.03.18-13.26.07:249][380]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.022970s)
+[2019.03.18-13.26.07:394][380]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.18-13.26.07:451][380]LogInit: FAudioDevice initialized.
+[2019.03.18-13.26.07:515][380]LogLoad: Game class is 'MyGameMode_C'
+[2019.03.18-13.26.07:519][380]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.03.18-21.26.07
+[2019.03.18-13.26.07:585][380]LogWorld: Bringing up level for play took: 0.070114
+[2019.03.18-13.26.07:656][380]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0074 seconds. Added 11 classes and 0 folders.
+[2019.03.18-13.26.07:668][380]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 1.665
+[2019.03.18-13.26.58:363][100]Set new viewmode: ShaderComplexity
+[2019.03.18-13.27.02:755][376]Set new viewmode: ShaderComplexity
+[2019.03.18-13.27.04:907][553]Set new viewmode: ShaderComplexity
+[2019.03.18-13.27.06:622][695]Set new viewmode: Lit_DetailLighting
+[2019.03.18-13.27.07:428][758]Set new viewmode: Lit_DetailLighting
+[2019.03.18-13.27.07:768][786]Set new viewmode: ShaderComplexity
+[2019.03.18-13.27.08:684][861]Set new viewmode: ShaderComplexity
+[2019.03.18-13.27.08:968][883]Set new viewmode: Lit_DetailLighting
+[2019.03.18-13.27.09:513][927]Set new viewmode: Lit
+[2019.03.18-13.27.17:704][489]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-13.27.17:826][499]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CubeBlueprint" FILE="C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Content/CubeBlueprint.uasset" SILENT=true
+[2019.03.18-13.27.17:866][499]LogSavePackage: Save=10.37ms
+[2019.03.18-13.27.17:866][499]LogSavePackage: Moving 'C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Saved/CubeBlueprintF002D88647F8BC02079747BBA114783A.tmp' to 'C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Content/CubeBlueprint.uasset'
+[2019.03.18-13.27.17:874][499]LogSavePackage: Display: Finished SavePackage C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Content/CubeBlueprint.uasset
+[2019.03.18-13.27.30:003][560]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-13.27.44:104][920]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.18-13.27.44:122][920]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.18-13.27.44:124][920]LogPlayLevel: [PlayLevel] Compiling CubeBlueprint before play...
+[2019.03.18-13.27.44:409][920]LogPlayLevel: PlayLevel: Blueprint regeneration took 287 ms (1 blueprints)
+[2019.03.18-13.27.44:410][920]PIE: New page: PIE session: NewMap (Mar 19, 2019, 5:27:44 AM)
+[2019.03.18-13.27.44:410][920]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.03.18-13.27.44:412][920]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002343s)
+[2019.03.18-13.27.44:413][920]LogAIModule: Creating AISystem for world NewMap
+[2019.03.18-13.27.44:414][920]LogPlayLevel: PIE: World Init took: (0.001233s)
+[2019.03.18-13.27.44:414][920]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.004058s)
+[2019.03.18-13.27.44:540][920]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.18-13.27.44:587][920]LogInit: FAudioDevice initialized.
+[2019.03.18-13.27.44:650][920]LogLoad: Game class is 'MyGameMode_C'
+[2019.03.18-13.27.44:652][920]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.03.18-21.27.44
+[2019.03.18-13.27.44:653][920]LogWorld: Bringing up level for play took: 0.001661
+[2019.03.18-13.27.44:655][920]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.653
+[2019.03.18-13.27.49:331][288]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-13.28.06:860][926]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-13.28.11:513][371]LogSlate: Window 'Color Picker' being destroyed
+[2019.03.18-13.28.22:736][466]BlueprintLog: New page: Compile CubeBlueprint
+[2019.03.18-13.28.23:228][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CubeBlueprint" FILE="C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Content/CubeBlueprint.uasset" SILENT=true
+[2019.03.18-13.28.23:268][471]LogSavePackage: Save=15.93ms
+[2019.03.18-13.28.23:268][471]LogSavePackage: Moving 'C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Saved/CubeBlueprintA32DD8A44CB22A857828BBAB25CB6AA3.tmp' to 'C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Content/CubeBlueprint.uasset'
+[2019.03.18-13.28.23:280][471]LogSavePackage: Display: Finished SavePackage C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Content/CubeBlueprint.uasset
+[2019.03.18-13.28.24:275][561]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.18-13.28.24:295][561]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.18-13.28.24:296][561]PIE: New page: PIE session: NewMap (Mar 19, 2019, 5:28:24 AM)
+[2019.03.18-13.28.24:296][561]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.03.18-13.28.24:298][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002167s)
+[2019.03.18-13.28.24:299][561]LogAIModule: Creating AISystem for world NewMap
+[2019.03.18-13.28.24:299][561]LogPlayLevel: PIE: World Init took: (0.001054s)
+[2019.03.18-13.28.24:299][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003569s)
+[2019.03.18-13.28.24:425][561]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.18-13.28.24:469][561]LogInit: FAudioDevice initialized.
+[2019.03.18-13.28.24:522][561]LogLoad: Game class is 'MyGameMode_C'
+[2019.03.18-13.28.24:523][561]PIE: Warning: Invalid Simulate Options: Body (CubeBlueprint_65.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.18-13.28.24:524][561]PIE: Warning: Invalid Simulate Options: Body (CubeBlueprint_65.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.18-13.28.24:524][561]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.03.18-21.28.24
+[2019.03.18-13.28.24:524][561]LogWorld: Bringing up level for play took: 0.001463
+[2019.03.18-13.28.24:526][561]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.524
+[2019.03.18-13.28.32:629][225]LogEditorViewport: Clicking on Actor (LMB): CubeBlueprint_C (CubeBlueprint)
+[2019.03.18-13.28.35:563][455]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-13.28.35:680][465]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.18-13.28.35:698][465]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.18-13.28.35:698][465]PIE: New page: PIE session: NewMap (Mar 19, 2019, 5:28:35 AM)
+[2019.03.18-13.28.35:699][465]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.03.18-13.28.35:700][465]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001688s)
+[2019.03.18-13.28.35:701][465]LogAIModule: Creating AISystem for world NewMap
+[2019.03.18-13.28.35:702][465]LogPlayLevel: PIE: World Init took: (0.001050s)
+[2019.03.18-13.28.35:702][465]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003047s)
+[2019.03.18-13.28.35:824][465]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.18-13.28.35:868][465]LogInit: FAudioDevice initialized.
+[2019.03.18-13.28.35:918][465]LogLoad: Game class is 'MyGameMode_C'
+[2019.03.18-13.28.35:919][465]PIE: Warning: Invalid Simulate Options: Body (CubeBlueprint_65.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.18-13.28.35:920][465]PIE: Warning: Invalid Simulate Options: Body (CubeBlueprint_65.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.18-13.28.35:920][465]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.03.18-21.28.35
+[2019.03.18-13.28.35:920][465]LogWorld: Bringing up level for play took: 0.001770
+[2019.03.18-13.28.35:922][465]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.08
+[2019.03.18-13.28.38:815][692]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.18-13.28.40:666][839]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-13.28.56:315][308]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.18-13.28.56:333][308]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.18-13.28.56:335][308]LogPlayLevel: [PlayLevel] Compiling CubeBlueprint before play...
+[2019.03.18-13.28.56:615][308]LogPlayLevel: PlayLevel: Blueprint regeneration took 281 ms (1 blueprints)
+[2019.03.18-13.28.56:615][308]PIE: New page: PIE session: NewMap (Mar 19, 2019, 5:28:56 AM)
+[2019.03.18-13.28.56:615][308]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.03.18-13.28.56:618][308]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002178s)
+[2019.03.18-13.28.56:619][308]LogAIModule: Creating AISystem for world NewMap
+[2019.03.18-13.28.56:619][308]LogPlayLevel: PIE: World Init took: (0.001194s)
+[2019.03.18-13.28.56:619][308]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003842s)
+[2019.03.18-13.28.56:743][308]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.18-13.28.56:789][308]LogInit: FAudioDevice initialized.
+[2019.03.18-13.28.56:845][308]LogLoad: Game class is 'MyGameMode_C'
+[2019.03.18-13.28.56:846][308]PIE: Warning: Invalid Simulate Options: Body (CubeBlueprint_65.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.18-13.28.56:847][308]PIE: Warning: Invalid Simulate Options: Body (CubeBlueprint_65.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.18-13.28.56:847][308]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.03.18-21.28.56
+[2019.03.18-13.28.56:847][308]LogWorld: Bringing up level for play took: 0.001751
+[2019.03.18-13.28.56:849][308]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.848
+[2019.03.18-13.29.06:485][ 84]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.18-13.29.08:616][257]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-13.31.20:249][376]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2019.03.18-13.31.20:249][376]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2019.03.18-13.31.20:249][376]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2019.03.18-13.31.20:249][376]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2019.03.18-13.31.21:991][528]BlueprintLog: New page: Compile CubeBlueprint
+[2019.03.18-13.31.22:396][529]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CubeBlueprint" FILE="C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Content/CubeBlueprint.uasset" SILENT=true
+[2019.03.18-13.31.22:442][529]LogSavePackage: Save=16.52ms
+[2019.03.18-13.31.22:443][529]LogSavePackage: Moving 'C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Saved/CubeBlueprintEE5CFB8F4DBEA5D3F4B5B59A37A7A651.tmp' to 'C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Content/CubeBlueprint.uasset'
+[2019.03.18-13.31.22:454][529]LogSavePackage: Display: Finished SavePackage C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Content/CubeBlueprint.uasset
+[2019.03.18-13.31.23:224][593]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.18-13.31.23:245][593]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.18-13.31.23:245][593]PIE: New page: PIE session: NewMap (Mar 19, 2019, 5:31:23 AM)
+[2019.03.18-13.31.23:245][593]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.03.18-13.31.23:249][593]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002940s)
+[2019.03.18-13.31.23:250][593]LogAIModule: Creating AISystem for world NewMap
+[2019.03.18-13.31.23:250][593]LogPlayLevel: PIE: World Init took: (0.001188s)
+[2019.03.18-13.31.23:250][593]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.004600s)
+[2019.03.18-13.31.23:378][593]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.18-13.31.23:430][593]LogInit: FAudioDevice initialized.
+[2019.03.18-13.31.23:486][593]LogLoad: Game class is 'MyGameMode_C'
+[2019.03.18-13.31.23:488][593]PIE: Warning: Invalid Simulate Options: Body (CubeBlueprint_65.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.18-13.31.23:488][593]PIE: Warning: Invalid Simulate Options: Body (CubeBlueprint_65.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.18-13.31.23:488][593]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.03.18-21.31.23
+[2019.03.18-13.31.23:489][593]LogWorld: Bringing up level for play took: 0.001584
+[2019.03.18-13.31.23:491][593]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.51
+[2019.03.18-13.31.27:677][919]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-13.32.01:787][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CubeBlueprint" FILE="C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Content/CubeBlueprint.uasset" SILENT=true
+[2019.03.18-13.32.01:840][ 41]LogSavePackage: Save=19.79ms
+[2019.03.18-13.32.01:840][ 41]LogSavePackage: Moving 'C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Saved/CubeBlueprint7E13686748D99A3118E516887B4EA691.tmp' to 'C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Content/CubeBlueprint.uasset'
+[2019.03.18-13.32.01:853][ 41]LogSavePackage: Display: Finished SavePackage C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Content/CubeBlueprint.uasset
+[2019.03.18-13.32.02:230][ 74]BlueprintLog: New page: Compile CubeBlueprint
+[2019.03.18-13.32.12:774][ 60]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.18-13.32.12:801][ 60]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.18-13.32.12:806][ 60]LogPlayLevel: [PlayLevel] Compiling Hand_BP before play...
+[2019.03.18-13.32.12:812][ 60]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024185a9aa00, Size=120
+[2019.03.18-13.32.12:812][ 60]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024151d23480, Size=120, Hand_BP_C_179 Function /Engine/Transient.REINST_Hand_BP_C_62:ExecuteUbergraph_Hand_BP
+[2019.03.18-13.32.12:815][ 60]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024151d21400, Size=120, Default__Hand_BP_C Function /Game/Hand_BP.Hand_BP_C:ExecuteUbergraph_Hand_BP
+[2019.03.18-13.32.13:121][ 60]LogPlayLevel: PlayLevel: Blueprint regeneration took 319 ms (1 blueprints)
+[2019.03.18-13.32.13:121][ 60]PIE: New page: PIE session: NewMap (Mar 19, 2019, 5:32:13 AM)
+[2019.03.18-13.32.13:121][ 60]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.03.18-13.32.13:123][ 60]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001945s)
+[2019.03.18-13.32.13:124][ 60]LogAIModule: Creating AISystem for world NewMap
+[2019.03.18-13.32.13:125][ 60]LogPlayLevel: PIE: World Init took: (0.001174s)
+[2019.03.18-13.32.13:125][ 60]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003591s)
+[2019.03.18-13.32.13:248][ 60]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.18-13.32.13:294][ 60]LogInit: FAudioDevice initialized.
+[2019.03.18-13.32.13:343][ 60]LogLoad: Game class is 'MyGameMode_C'
+[2019.03.18-13.32.13:345][ 60]PIE: Warning: Invalid Simulate Options: Body (CubeBlueprint_65.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.18-13.32.13:345][ 60]PIE: Warning: Invalid Simulate Options: Body (CubeBlueprint_65.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.18-13.32.13:345][ 60]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.03.18-21.32.13
+[2019.03.18-13.32.13:346][ 60]LogWorld: Bringing up level for play took: 0.002036
+[2019.03.18-13.32.13:348][ 60]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 1.347
+[2019.03.18-13.32.17:168][363]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-13.32.17:282][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CubeBlueprint" FILE="C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Content/CubeBlueprint.uasset" SILENT=true
+[2019.03.18-13.32.17:325][372]LogSavePackage: Save=14.74ms
+[2019.03.18-13.32.17:326][372]LogSavePackage: Moving 'C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Saved/CubeBlueprintD96AE431468061DC1E482AB887172FBA.tmp' to 'C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Content/CubeBlueprint.uasset'
+[2019.03.18-13.32.17:332][372]LogSavePackage: Display: Finished SavePackage C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Content/CubeBlueprint.uasset
+[2019.03.18-13.32.19:757][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CubeBlueprint" FILE="C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Content/CubeBlueprint.uasset" SILENT=true
+[2019.03.18-13.32.19:788][578]LogSavePackage: Save=9.36ms
+[2019.03.18-13.32.19:789][578]LogSavePackage: Moving 'C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Saved/CubeBlueprint33D1880844185DC482B7D49054D7A5DD.tmp' to 'C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Content/CubeBlueprint.uasset'
+[2019.03.18-13.32.19:796][578]LogSavePackage: Display: Finished SavePackage C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Content/CubeBlueprint.uasset
+[2019.03.18-13.32.25:036][ 29]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.18-13.32.25:058][ 29]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.18-13.32.25:059][ 29]PIE: New page: PIE session: NewMap (Mar 19, 2019, 5:32:25 AM)
+[2019.03.18-13.32.25:059][ 29]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.03.18-13.32.25:062][ 29]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002856s)
+[2019.03.18-13.32.25:063][ 29]LogAIModule: Creating AISystem for world NewMap
+[2019.03.18-13.32.25:063][ 29]LogPlayLevel: PIE: World Init took: (0.001320s)
+[2019.03.18-13.32.25:064][ 29]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.004663s)
+[2019.03.18-13.32.25:185][ 29]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.18-13.32.25:230][ 29]LogInit: FAudioDevice initialized.
+[2019.03.18-13.32.25:286][ 29]LogLoad: Game class is 'MyGameMode_C'
+[2019.03.18-13.32.25:287][ 29]PIE: Warning: Invalid Simulate Options: Body (CubeBlueprint_65.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.18-13.32.25:288][ 29]PIE: Warning: Invalid Simulate Options: Body (CubeBlueprint_65.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.18-13.32.25:288][ 29]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.03.18-21.32.25
+[2019.03.18-13.32.25:289][ 29]LogWorld: Bringing up level for play took: 0.002123
+[2019.03.18-13.32.25:291][ 29]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.709
+[2019.03.18-13.32.28:481][278]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-13.32.28:583][287]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CubeBlueprint" FILE="C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Content/CubeBlueprint.uasset" SILENT=true
+[2019.03.18-13.32.28:616][287]LogSavePackage: Save=8.42ms
+[2019.03.18-13.32.28:616][287]LogSavePackage: Moving 'C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Saved/CubeBlueprintE8C6D7F74DE792575F172D9F60A96FC9.tmp' to 'C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Content/CubeBlueprint.uasset'
+[2019.03.18-13.32.28:623][287]LogSavePackage: Display: Finished SavePackage C:/Users/ZYK/Documents/Unreal Projects/ue4_simpleDemo_wangziqi/Content/CubeBlueprint.uasset
+[2019.03.18-13.32.37:039][ 59]LogEditorTransaction: Undo Change Collision Profile
+[2019.03.18-13.32.37:053][ 59]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_11:PersistentLevel.Hand_BP_C_0.Arrow) Component already registered.
+[2019.03.18-13.32.37:054][ 59]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_11:PersistentLevel.Hand_BP_C_0.CharMoveComp) Component already registered.
+[2019.03.18-13.32.37:054][ 59]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_11:PersistentLevel.Hand_BP_C_0.CharacterMesh0) Component already registered.
+[2019.03.18-13.32.50:376][347]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.18-13.32.50:395][347]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.18-13.32.50:395][347]PIE: New page: PIE session: NewMap (Mar 19, 2019, 5:32:50 AM)
+[2019.03.18-13.32.50:395][347]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.03.18-13.32.50:398][347]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002356s)
+[2019.03.18-13.32.50:399][347]LogAIModule: Creating AISystem for world NewMap
+[2019.03.18-13.32.50:399][347]LogPlayLevel: PIE: World Init took: (0.001195s)
+[2019.03.18-13.32.50:400][347]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.004096s)
+[2019.03.18-13.32.50:521][347]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.18-13.32.50:565][347]LogInit: FAudioDevice initialized.
+[2019.03.18-13.32.50:622][347]LogLoad: Game class is 'MyGameMode_C'
+[2019.03.18-13.32.50:624][347]PIE: Warning: Invalid Simulate Options: Body (CubeBlueprint_65.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.18-13.32.50:624][347]PIE: Warning: Invalid Simulate Options: Body (CubeBlueprint_65.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.18-13.32.50:624][347]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.03.18-21.32.50
+[2019.03.18-13.32.50:625][347]LogWorld: Bringing up level for play took: 0.001862
+[2019.03.18-13.32.50:627][347]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.627
+[2019.03.18-13.32.54:765][676]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.03.18-13.32.56:610][816]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-13.32.56:744][825]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.18-13.32.56:761][825]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.18-13.32.56:761][825]PIE: New page: PIE session: NewMap (Mar 19, 2019, 5:32:56 AM)
+[2019.03.18-13.32.56:761][825]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.03.18-13.32.56:763][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001952s)
+[2019.03.18-13.32.56:764][825]LogAIModule: Creating AISystem for world NewMap
+[2019.03.18-13.32.56:764][825]LogPlayLevel: PIE: World Init took: (0.001063s)
+[2019.03.18-13.32.56:764][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003388s)
+[2019.03.18-13.32.56:887][825]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.18-13.32.56:937][825]LogInit: FAudioDevice initialized.
+[2019.03.18-13.32.56:985][825]LogLoad: Game class is 'MyGameMode_C'
+[2019.03.18-13.32.56:987][825]PIE: Warning: Invalid Simulate Options: Body (CubeBlueprint_65.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.18-13.32.56:987][825]PIE: Warning: Invalid Simulate Options: Body (CubeBlueprint_65.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.18-13.32.56:987][825]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.03.18-21.32.56
+[2019.03.18-13.32.56:988][825]LogWorld: Bringing up level for play took: 0.001729
+[2019.03.18-13.32.56:989][825]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.99
+[2019.03.18-13.33.00:996][121]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-13.33.02:012][194]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.18-13.33.02:028][194]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.18-13.33.02:029][194]PIE: New page: PIE session: NewMap (Mar 19, 2019, 5:33:02 AM)
+[2019.03.18-13.33.02:029][194]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.03.18-13.33.02:031][194]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001832s)
+[2019.03.18-13.33.02:032][194]LogAIModule: Creating AISystem for world NewMap
+[2019.03.18-13.33.02:032][194]LogPlayLevel: PIE: World Init took: (0.001047s)
+[2019.03.18-13.33.02:032][194]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003226s)
+[2019.03.18-13.33.02:152][194]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.18-13.33.02:198][194]LogInit: FAudioDevice initialized.
+[2019.03.18-13.33.02:252][194]LogLoad: Game class is 'MyGameMode_C'
+[2019.03.18-13.33.02:254][194]PIE: Warning: Invalid Simulate Options: Body (CubeBlueprint_65.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.18-13.33.02:254][194]PIE: Warning: Invalid Simulate Options: Body (CubeBlueprint_65.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.18-13.33.02:255][194]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.03.18-21.33.02
+[2019.03.18-13.33.02:255][194]LogWorld: Bringing up level for play took: 0.001923
+[2019.03.18-13.33.02:257][194]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.257
+[2019.03.18-13.33.06:875][544]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.18-13.33.13:195][ 29]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-13.33.18:614][512]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.18-13.33.18:655][512]LogSlate: Took 0.028274 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.03.18-13.33.23:864][986]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-13.33.28:806][463]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.18-13.33.31:800][746]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-13.33.35:105][ 35]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-13.33.35:200][ 44]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.18-13.33.35:221][ 44]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.18-13.33.35:224][ 44]LogPlayLevel: [PlayLevel] Compiling CubeBlueprint before play...
+[2019.03.18-13.33.35:505][ 44]LogPlayLevel: PlayLevel: Blueprint regeneration took 283 ms (1 blueprints)
+[2019.03.18-13.33.35:505][ 44]PIE: New page: PIE session: NewMap (Mar 19, 2019, 5:33:35 AM)
+[2019.03.18-13.33.35:506][ 44]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.03.18-13.33.35:508][ 44]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002210s)
+[2019.03.18-13.33.35:509][ 44]LogAIModule: Creating AISystem for world NewMap
+[2019.03.18-13.33.35:509][ 44]LogPlayLevel: PIE: World Init took: (0.001135s)
+[2019.03.18-13.33.35:509][ 44]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003783s)
+[2019.03.18-13.33.35:635][ 44]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.18-13.33.35:685][ 44]LogInit: FAudioDevice initialized.
+[2019.03.18-13.33.35:733][ 44]LogLoad: Game class is 'MyGameMode_C'
+[2019.03.18-13.33.35:735][ 44]PIE: Warning: Invalid Simulate Options: Body (CubeBlueprint_65.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.18-13.33.35:735][ 44]PIE: Warning: Invalid Simulate Options: Body (CubeBlueprint_65.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.18-13.33.35:735][ 44]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.03.18-21.33.35
+[2019.03.18-13.33.35:736][ 44]LogWorld: Bringing up level for play took: 0.001935
+[2019.03.18-13.33.35:737][ 44]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.263
+[2019.03.18-13.34.12:499][826]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-13.34.32:375][568]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.18-13.34.32:396][568]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.18-13.34.32:398][568]LogPlayLevel: [PlayLevel] Compiling CubeBlueprint before play...
+[2019.03.18-13.34.32:753][568]LogPlayLevel: PlayLevel: Blueprint regeneration took 356 ms (1 blueprints)
+[2019.03.18-13.34.32:753][568]PIE: New page: PIE session: NewMap (Mar 19, 2019, 5:34:32 AM)
+[2019.03.18-13.34.32:753][568]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.03.18-13.34.32:755][568]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001866s)
+[2019.03.18-13.34.32:757][568]LogAIModule: Creating AISystem for world NewMap
+[2019.03.18-13.34.32:757][568]LogPlayLevel: PIE: World Init took: (0.001370s)
+[2019.03.18-13.34.32:757][568]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003694s)
+[2019.03.18-13.34.32:881][568]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.18-13.34.32:931][568]LogInit: FAudioDevice initialized.
+[2019.03.18-13.34.32:983][568]LogLoad: Game class is 'MyGameMode_C'
+[2019.03.18-13.34.32:984][568]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.03.18-21.34.32
+[2019.03.18-13.34.32:985][568]LogWorld: Bringing up level for play took: 0.001157
+[2019.03.18-13.34.32:987][568]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.987
+[2019.03.18-13.34.45:390][662]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-13.34.57:202][688]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.18-13.34.57:221][688]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.18-13.34.57:223][688]LogPlayLevel: [PlayLevel] Compiling CubeBlueprint before play...
+[2019.03.18-13.34.57:629][688]LogPlayLevel: PlayLevel: Blueprint regeneration took 407 ms (1 blueprints)
+[2019.03.18-13.34.57:629][688]PIE: New page: PIE session: NewMap (Mar 19, 2019, 5:34:57 AM)
+[2019.03.18-13.34.57:629][688]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.03.18-13.34.57:633][688]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003327s)
+[2019.03.18-13.34.57:634][688]LogAIModule: Creating AISystem for world NewMap
+[2019.03.18-13.34.57:634][688]LogPlayLevel: PIE: World Init took: (0.001246s)
+[2019.03.18-13.34.57:634][688]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.005002s)
+[2019.03.18-13.34.57:758][688]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.18-13.34.57:806][688]LogInit: FAudioDevice initialized.
+[2019.03.18-13.34.57:856][688]LogLoad: Game class is 'MyGameMode_C'
+[2019.03.18-13.34.57:870][688]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.03.18-21.34.57
+[2019.03.18-13.34.57:871][688]LogWorld: Bringing up level for play took: 0.013865
+[2019.03.18-13.34.57:872][688]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.127
+[2019.03.18-13.35.05:874][340]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.18-13.35.07:261][452]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-13.35.07:372][462]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.18-13.35.07:391][462]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.18-13.35.07:392][462]LogPlayLevel: [PlayLevel] Compiling CubeBlueprint before play...
+[2019.03.18-13.35.07:900][462]LogPlayLevel: PlayLevel: Blueprint regeneration took 509 ms (1 blueprints)
+[2019.03.18-13.35.07:901][462]PIE: New page: PIE session: NewMap (Mar 19, 2019, 5:35:07 AM)
+[2019.03.18-13.35.07:901][462]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.03.18-13.35.07:902][462]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001710s)
+[2019.03.18-13.35.07:903][462]LogAIModule: Creating AISystem for world NewMap
+[2019.03.18-13.35.07:904][462]LogPlayLevel: PIE: World Init took: (0.001031s)
+[2019.03.18-13.35.07:904][462]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003118s)
+[2019.03.18-13.35.08:032][462]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.18-13.35.08:075][462]LogInit: FAudioDevice initialized.
+[2019.03.18-13.35.08:129][462]LogLoad: Game class is 'MyGameMode_C'
+[2019.03.18-13.35.08:131][462]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.03.18-21.35.08
+[2019.03.18-13.35.08:132][462]LogWorld: Bringing up level for play took: 0.001259
+[2019.03.18-13.35.08:134][462]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.135
+[2019.03.18-13.35.53:787][828]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.18-13.35.55:004][913]LogSlate: FSceneViewport::OnFocusLost() reason 0

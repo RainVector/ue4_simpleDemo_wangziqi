@@ -12,7 +12,7 @@ struct InfoBall{
 	float z;
 	float radius;
 };
-extern FVector ballLocation;
+extern InfoBall ball;
 UCLASS()
 class HAND_API ABallPawn : public APawn
 {

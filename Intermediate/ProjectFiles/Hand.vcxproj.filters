@@ -64,12 +64,18 @@
     <ClInclude Include="..\..\Source\Hand\Misc.h">
       <Filter>Source\Hand</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\Hand\CubePawn.h">
+      <Filter>Source\Hand</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\Hand\HandCharacter.cpp">
       <Filter>Source\Hand</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Hand\Misc.cpp">
+      <Filter>Source\Hand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hand\CubePawn.cpp">
       <Filter>Source\Hand</Filter>
     </ClCompile>
   </ItemGroup>

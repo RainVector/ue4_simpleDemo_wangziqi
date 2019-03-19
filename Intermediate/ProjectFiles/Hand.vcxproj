@@ -206,7 +206,7 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'">
-    <IncludePath />
+    <IncludePath>C:\Users\ZYK\Documents\Unreal Projects\ue4_simpleDemo_wangziqi\Source\ThirdParty;C:\Users\ZYK\Documents\Unreal Projects\ue4_simpleDemo_wangziqi\Source\ThirdParty\Eigen;$(IncludePath)</IncludePath>
     <ReferencePath />
     <LibraryPath />
     <LibraryWPath />
@@ -416,8 +416,10 @@
     <ClCompile Include="..\..\Source\Hand\BallPawn.cpp" />
     <ClInclude Include="..\..\Source\Hand\BallPawn.h" />
     <None Include="..\..\Source\Hand\Hand.Build.cs" />
+    <ClCompile Include="..\..\Source\Hand\CubePawn.cpp" />
     <ClCompile Include="..\..\Source\Hand\HandCharacter.cpp" />
     <ClCompile Include="..\..\Source\Hand\HandGameModeBase.cpp" />
+    <ClInclude Include="..\..\Source\Hand\CubePawn.h" />
     <ClInclude Include="..\..\Source\Hand\HandCharacter.h" />
     <ClInclude Include="..\..\Source\Hand\HandGameModeBase.h" />
     <ClCompile Include="..\..\Source\Hand\Misc.cpp" />

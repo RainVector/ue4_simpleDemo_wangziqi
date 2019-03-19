@@ -4,8 +4,7 @@
 #include <windows.h>
 
 // Sets default values
-
-FVector ballLocation;
+InfoBall ball;
 ABallPawn::ABallPawn()
 {
  	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
@@ -17,6 +16,8 @@ ABallPawn::ABallPawn()
 void ABallPawn::BeginPlay()
 {
 	Super::BeginPlay();
+
+	
 	
 }
 
@@ -28,10 +29,16 @@ void ABallPawn::Tick(float DeltaTime)
 	temp++;
 	ControlInputVector = FVector(0, 0, temp);*/
 	//Internal_AddMovementInput(FVector(0, 0, 10));
+	FVector ballLocation;
 	ballLocation = GetPawnViewLocation();
-	/*WCHAR buffer[100];
+
+	ball.radius = GetSimpleCollisionHalfHeight();
+	ball.x = ballLocation.X;
+	ball.y = ballLocation.Y;
+	ball.z = ballLocation.Z;
+	WCHAR buffer[100];
 	swprintf(buffer,L"the ball is at (%f, %f, %f).\r\n", ballLocation.X, ballLocation.Y, ballLocation.Z);
-	OutputDebugString(buffer);*/
+	OutputDebugString(buffer);
 
 }
 
