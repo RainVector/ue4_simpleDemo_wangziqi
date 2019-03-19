@@ -131,14 +131,15 @@ bool IntersectHand(FVector *finger, InfoBall ball, InfoCube cube, int fingerID)
 	double height1 = cube.z - cube.halfHeight;
 	double height2 = cube.z + cube.halfHeight;
 	double width1 = cube.y - cube.halfHeight;
+	double width2 = cube.y + cube.halfHeight;
 	if (fingerID == 0) {
-		if ((y2 - width1) > 0) {
+		if ((y2 - width1) > 0 &&(width2 - y2) > 0) {
 			cdFlag = TRUE;
 			objCdFlag[fingerID] = 1;
 		}
 	}
 	else{
-		if ((z1 - height1)*(z2 - height1) < 0 || (z2 - height2) < 0) {
+		if ((z2 -height1) > 0 && (height2 - z2) > 0) {
 			cdFlag = TRUE;
 			objCdFlag[fingerID] = 1;
 		}
@@ -619,7 +620,13 @@ void tDeviceReadThead(void *param)
 			continue;
 		}
 		//dataFetch zyk
-		float angle[14] = { bvhData.data[6 + 0 * 4 * 6 + 9], bvhData.data[6 + 0 * 4 * 6 + 21], bvhData.data[6 + 0 * 4 * 6 + 11], \
+		float finData;
+		if (bvhData.data[6 + 0 * 4 * 6 + 9] < 0) 
+			finData = 0;
+		else
+			finData = bvhData.data[6 + 0 * 4 * 6 + 9];
+
+		float angle[14] = { finData, bvhData.data[6 + 0 * 4 * 6 + 21], bvhData.data[6 + 0 * 4 * 6 + 11], \
 			bvhData.data[6 + 1 * 4 * 6 + 11], bvhData.data[6 + 1 * 4 * 6 + 17], bvhData.data[6 + 1 * 4 * 6 + 9],\
 			bvhData.data[6 + 2 * 4 * 6 + 11], bvhData.data[6 + 2 * 4 * 6 + 17], bvhData.data[6 + 2 * 4 * 6 + 9],\
 			bvhData.data[6 + 3 * 4 * 6 + 11], bvhData.data[6 + 3 * 4 * 6 + 17], bvhData.data[6 + 3 * 4 * 6 + 9],\
